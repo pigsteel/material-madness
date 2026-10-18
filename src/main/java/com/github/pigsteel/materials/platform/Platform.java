@@ -1,4 +1,4 @@
-package com.example.modtemplate.platform;
+package com.github.pigsteel.materials.platform;
 
 public interface Platform {
 	boolean isModLoaded(String modId);

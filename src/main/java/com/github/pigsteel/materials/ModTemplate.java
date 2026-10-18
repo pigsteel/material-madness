@@ -1,17 +1,17 @@
-package com.example.modtemplate;
+package com.github.pigsteel.materials;
 
-import com.example.modtemplate.platform.Platform;
+import com.github.pigsteel.materials.platform.Platform;
 
 import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 //? fabric {
-import com.example.modtemplate.platform.fabric.FabricPlatform;
+import com.github.pigsteel.materials.platform.fabric.FabricPlatform;
 //?} neoforge {
-/*import com.example.modtemplate.platform.neoforge.NeoforgePlatform;
+/*import com.github.pigsteel.materials.platform.neoforge.NeoforgePlatform;
  *///?} forge {
-/*import com.example.modtemplate.platform.forge.ForgePlatform;
+/*import com.github.pigsteel.materials.platform.forge.ForgePlatform;
  *///?}
 
 @SuppressWarnings("LoggingSimilarMessage")

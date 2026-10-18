@@ -1,8 +1,8 @@
-package com.example.modtemplate.platform.neoforge;
+package com.github.pigsteel.materials.platform.neoforge;
 
 //? neoforge {
 
-/*import com.example.modtemplate.ModTemplate;
+/*import com.github.pigsteel.materials.ModTemplate;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;

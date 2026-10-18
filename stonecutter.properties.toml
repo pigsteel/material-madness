@@ -1,37 +1,35 @@
 loomx.loom_version="1.17-SNAPSHOT"
 
-mod.id = "modtemplate"
-mod.name = "Mod Template"
-mod.group = "com.example"
-mod.version = "0.1.0"
-mod.channel_tag = "-alpha.2"
-mod.description = "Example Description"
-mod.authors = ["AuthorName", "AnotherAuthorName"]
-mod.contributors = ["ContributorName", "AnotherContributorName"]
-mod.inception_year = "2025"
-mod.license.name = "MIT"
-mod.license.url = "https://opensource.org/licenses/MIT"
-mod.license.dist = "repo"
-mod.environment = "client_and_server"
-mod.sources_url = "https://github.com/rotgruengelb/stonecutter-mod-template"
-mod.homepage_url = "https://github.com/rotgruengelb/stonecutter-mod-template"
-mod.issues_url = "https://github.com/rotgruengelb/stonecutter-mod-template/issues"
-mod.discord_url = "https://discord.gg/aunYJB4wz9"
+
+[mod]
+id = "materials"
+name = "Material Madness"
+group = "com.github.pigsteel"
+version = "1.0"
+channel_tag = "-alpha.1"
+description = "Materialss,,,.."
+authors = ["pigsteel"]
+contributors = []
+inception_year = "2026"
+license.name = "MIT"
+license.url = "https://opensource.org/licenses/MIT"
+license.dist = "repo"
+sources_url = "https://github.com/pigsteel/material-madness"
+homepage_url = "https://github.com/pigsteel/material-madness"
+issues_url = "https://github.com/pigsteel/material-madness/issues"
+discord_url = ""
+environment = "client_and_server"
 
 [[mod.pom.developers]]
-id = "authorname"
-name = "AuthorName"
-url = "https://github.com/ghost"
-[[mod.pom.developers]]
-id = "anotherauthorname"
-name = "AnotherAuthorName"
+id = "pigsteel"
+name = "pigsteel"
 url = "https://github.com/ghost"
 
 [fabric]
 deps.fabric-loader = "0.19.5"
 
 [fabric."26.3"]
-deps.minecraft = "26.2"
+deps.minecraft = "26.3"
 deps.fabric-api = "0.160.6+26.3"
 deps.modmenu = "21.0.0-beta.1"
 deps.mixson = "2.2.0"

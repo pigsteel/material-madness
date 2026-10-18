@@ -1,9 +1,9 @@
-package com.example.modtemplate.util;
+package com.github.pigsteel.materials.util;
 
-import com.example.modtemplate.platform.Platform;
+import com.github.pigsteel.materials.platform.Platform;
 import net.minecraft.resources.Identifier;
 
-import static com.example.modtemplate.ModTemplate.*;
+import static com.github.pigsteel.materials.ModTemplate.*;
 
 public class Mod {
 	public static Identifier id(String path) {
